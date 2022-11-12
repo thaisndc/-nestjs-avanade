@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    // está apenas redirecionando o usuário para o serviço correto.
     return this.appService.getHello();
   }
 }
